@@ -1,10 +1,10 @@
-Customizable Resume PDF Generator
+# Customizable Resume PDF Generator
 
-Objective
+## Objective
 
 This Python command-line script allows users to generate a customized resume in PDF format with options for adjusting font size, font color, and background color.
 
-Features
+## Features
 
 Pre-generated Resume
 
