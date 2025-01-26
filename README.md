@@ -55,7 +55,7 @@ pip install reportlab
 Run the script with desired customization options:
 
 ```bash
-python resume_generator.py --font-size 14 --font-color "#FF5733" --background-color "#FFFFFF"
+python resume_generator.py --font-size 10 --font-color "#FF5733" --background-color "#FFFFFF"
 ```
 
 ### Examples
@@ -67,7 +67,7 @@ python resume_generator.py
 
 Customizing font size, color, and background color:
 ```bash
-python resume_generator.py --font-size 12 --font-color "#0000FF" --background-color "#F5F5F5"
+python resume_generator.py --font-size 10 --font-color "#0000FF" --background-color "#F5F5F5"
 ```
 
 ## Deliverables
