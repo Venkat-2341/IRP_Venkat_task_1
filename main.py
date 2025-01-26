@@ -66,13 +66,13 @@ def generate_resume(font_size, font_color, background_color):
     ]
     
     x, y = 50, image_y - 100
-    line_height = font_size + 6  # Increased line height for more padding
-    heading_padding = 15  # Additional padding for headings
+    line_height = font_size + 6  
+    heading_padding = 15 
     
     for line, is_heading in text_content:
         if is_heading:
             pdf.setFont("Helvetica", font_size + 4)
-            y -= heading_padding  # Extra padding before headings
+            y -= heading_padding  
         else:
             pdf.setFont("Helvetica", font_size - 1)
         
