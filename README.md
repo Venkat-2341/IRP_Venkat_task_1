@@ -6,100 +6,88 @@ This Python command-line script allows users to generate a customized resume in 
 
 ## Features
 
-Pre-generated Resume
-
-The resume contains essential sections such as:
-
-Name
-
-Contact Information
-
-Skills
-
-Education
-
-Experience
+### Pre-generated Resume Sections
+- Name
+- Contact Information
+- Skills
+- Education
+- Experience
 
 The initial PDF is generated using the ReportLab library.
 
-Resume PDF Layout
+### Resume PDF Layout
 
 The resume layout is inspired by modern resume templates from websites such as:
+- Canva
+- Enhancv
+- Resume Genius
+- Resume Builder
+- Resume.io
 
-Canva
-
-Enhancv
-
-Resume Genius
-
-Resume Builder
-
-Resume.io
-
-Customization Options
+### Customization Options
 
 The script allows customization through command-line arguments:
+- `--font-size`: Adjust the font size
+- `--font-color`: Adjust the font color using a hex code (e.g., #000000)
+- `--background-color`: Adjust the background color using a hex code (e.g., #FFFFFF)
 
---font-size: Adjust the font size.
-
---font-color: Adjust the font color using a hex code (e.g., #000000).
-
---background-color: Adjust the background color using a hex code (e.g., #FFFFFF).
-
-PDF Regeneration
+### PDF Regeneration
 
 The PDF is regenerated with the chosen options and saved as a new file.
 
-Tools/Frameworks Used
+## Tools/Frameworks Used
 
-argparse: For parsing command-line arguments.
+- `argparse`: For parsing command-line arguments
+- `ReportLab`: For generating customized PDF files
 
-ReportLab: For generating customized PDF files.
+## Setup Instructions
 
-Setup Instructions
-
-Prerequisites
+### Prerequisites
 
 Ensure you have Python installed on your system. The script requires the following dependencies:
 
+```bash
 pip install reportlab
+```
 
-Usage
+## Usage
 
 Run the script with desired customization options:
 
+```bash
 python resume_generator.py --font-size 14 --font-color "#FF5733" --background-color "#FFFFFF"
+```
 
-Example
+### Examples
 
 Generating a resume with default settings:
-
+```bash
 python resume_generator.py
+```
 
 Customizing font size, color, and background color:
-
+```bash
 python resume_generator.py --font-size 12 --font-color "#0000FF" --background-color "#F5F5F5"
+```
 
-Deliverables
+## Deliverables
 
-A Python script (resume_generator.py) that accepts customization arguments and outputs a customized PDF file.
+- A Python script (`resume_generator.py`) that accepts customization arguments and outputs a customized PDF file
+- A sample resume PDF created using the script
+- The script and sample resume PDF uploaded to a public GitHub repository
 
-A sample resume PDF created using the script.
-
-The script and sample resume PDF uploaded to a public GitHub repository.
-
-The repository URL should be shared with the company.
-
-Example Scenarios
+## Example Scenarios
 
 User wants to generate a resume with a larger font size:
-
+```bash
 python resume_generator.py --font-size 18
+```
 
 User wants a colorful resume:
-
+```bash
 python resume_generator.py --font-color "#FF0000" --background-color "#000000"
+```
 
-Contact
+## Contact
 
 For any issues or queries, please reach out at: vke.1743@gmail.com
