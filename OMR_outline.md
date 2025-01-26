@@ -39,7 +39,7 @@ Develop an AI&ML tool for automated bubble detection and interpretation on OMR s
 ### Visualization
 - Matplotlib
 - Seaborn
-- Streamlit/Dash for interactive dashboards
+- Streamlit for interactive dashboards
 
 ### Additional Tools
 - Label Studio (for annotation)
@@ -47,7 +47,6 @@ Develop an AI&ML tool for automated bubble detection and interpretation on OMR s
 
 ## AI Models
 
-### Proposed Model Architectures
 1. Convolutional Neural Networks (CNNs)
    - For bubble and marker detection
    - Potential architectures: ResNet, YOLO, SSD
@@ -59,21 +58,3 @@ Develop an AI&ML tool for automated bubble detection and interpretation on OMR s
 3. Ensemble Methods
    - Combine multiple models for robust predictions
    - Implement voting or stacking techniques
-
-## Performance Metrics
-
-### Key Evaluation Criteria
-- Bubble Detection Accuracy
-- Sheet Alignment Precision
-- Error Rate
-- Processing Efficiency
-
-## Deployment Considerations
-- TensorFlow Lite integration
-- Flutter/Android app compatibility
-- Scalable cloud deployment options
-
-## Next Steps
-- Dataset preparation
-- Model prototyping
-- Iterative testing and refinement
